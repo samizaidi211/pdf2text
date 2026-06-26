@@ -33,6 +33,7 @@ System deps (only needed if any PDF must be OCR'd):
 - **Poppler** (used to rasterize pages) — Windows: <https://github.com/oschwartz10612/poppler-windows/releases> (pass the `bin` folder via `--poppler-path`); macOS: `brew install poppler`; Debian/Ubuntu: `sudo apt install poppler-utils`
 
 ## Use
+First, make an `input/` and an `output/` folder within `pdf_to_text/`.
 
 Drop PDFs into `input/`, then:
 
